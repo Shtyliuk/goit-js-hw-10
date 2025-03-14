@@ -7,40 +7,28 @@
     <link rel="stylesheet" href="./2-snackbar.html" />
   </head>
   <body>
+    
     <p><a href="index.html">Go back</a></p>
-    <form class="form-promise">
-      <label class="form-delay">
-        Delay (ms)
-        <input type="number" name="delay" required class="input-delay" />
-      </label>
 
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+    
       <fieldset>
         <legend>State</legend>
-        <label class="label-status">
-          <input
-            type="radio"
-            name="state"
-            value="fulfilled"
-            required
-            class="input-color"
-          />
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
-        <label class="label-status">
-          <input
-            type="radio"
-            name="state"
-            value="rejected"
-            required
-            class="input-color"
-          />
+        <label>
+          <input type="radio" name="state" value="rejected" required />
           Rejected
         </label>
       </fieldset>
-
-      <button type="submit" class="btn-create-notification">
-        Create notification
-      </button>
+    
+      <button type="submit">Create notification</button>
     </form>
     
     <script src="./js/2-snackbar.js" type="module"></script>
