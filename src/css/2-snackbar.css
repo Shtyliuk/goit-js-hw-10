@@ -1,61 +1,94 @@
-.form > label > input {
-    display: flex;
-    gap: 8px;
-    width: 360px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    border: 1px solid #808080;
-    margin-bottom: 30px;
-  }
-  
-  .form > label > input:hover {
-    border: 1px solid #000;
-  }
-  
-  .form > label > input:focus {
-    border: 1px solid #4e75ff;
-  }
-  
-  fieldset {
-    width: 360px;
-    height: 64px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: 1px solid #808080;
-    margin-bottom: 24px;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 48px;
-    color: #2e2f42;
-    font-family: Montserrat;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  fieldset:hover {
-    border: 1px solid #000;
-  }
-  
-  button {
-    display: flex;
-    width: 360px;
-    padding: 8px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #4e75ff;
-    border: none;
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.04em;
-  }
-  
-  button:hover {
-    background: #6c8cff;
-  }
+.form-promise {
+  margin: 10px;
+  width: 360px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-delay {
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-delay {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  outline: transparent;
+  padding-left: 16px;
+}
+
+.input-delay:hover {
+  border: 1px solid #000;
+}
+
+.input-delay:focus {
+  border: 1px solid #4e75ff;
+}
+
+fieldset {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 360px;
+  height: 64px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+fieldset:hover {
+  border: 1px solid #000;
+}
+
+.input-color {
+  width: 20px;
+  height: 20px;
+  margin: 0;    
+}
+
+.btn-create-notification {
+  margin-top: 24px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-create-notification:hover {
+  background: #6c8cff;
+} 
